@@ -20,7 +20,7 @@ function App() {
       <GlassBackground />
       <NeuralIndex active={active} onSelect={handleSelect} />
 
-      <main className="relative z-10">
+      <main className="relative z-10 pt-28">
         <section id="core" className="min-h-screen">
           <Hero />
         </section>
